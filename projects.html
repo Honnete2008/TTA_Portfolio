@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(78, 2, 2);
+    color: white;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+   gap: 30px; 
+  top: 0;
+  z-index: 1;
+   height: 30px; 
+  background-color: rgb(78, 2, 2);
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 1.3px;
+}
+nav a {
+  color: rgb(0, 195, 255);
+    text-decoration: none; 
+    }
+    #work-section{
+            text-align: center;
+    }
+    .work-container{
+        display: flex;  
+        color: gray;
+        border-radius: 5px;
+        justify-content: center;
+        height: 80vh;  
+    }
+    .work-content{
+        border: 1px solid grey;
+        width: 27%;
+        margin: auto 30px;
+        border-radius: 5px;
+    }
+    .work-content img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 422px;
+        height: 200px;
+    }
+    .work-content p{
+        padding: 20px 20px 15px 12px;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: justify;
+    }
+    .work-content button{
+        color:rgb(56, 0, 0);
+        background-color: rgb(0, 195, 255);
+        font-weight: bold;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        border: none;
+    }
+        footer{
+        text-align: center;
+        background-color: rgb(0, 195, 255);
+        color: rgb(43, 0, 0);
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+        }
+        
+</style>
+<body>
+    <nav>
+        <a href="./index.html"> Home</a>
+        <a href="./My skills.html"> My Skills</a>
+        <a href="./projects.html"> Projects</a>
+        <a href="./contact me.html"> Contact me</a>
+      </nav>
+      <section id="work-section">
+        <h1>Experts In</h1>
+        <div class="work-container">
+            <div class="work-content work-1">
+                <img src="school.jpg" height="334"  alt="works">
+                <p>Worked on different webisites using HTML, CSS, and Javascript for making a perfect look . </p>
+                <button>Show more</button>
+            </div>
+    
+            <div class="work-content work-2">
+                <img src="menu.PNG" height="334" alt="works">
+                <p>Worked on different flyers using adobe products like adobe photoshop and adobe illustrator.</p>
+                <button>Show more</button>
+            </div>
+    
+            <div class="work-content work-3">
+                <img src="logo.PNG" height="334" alt="works">
+                <p>Worked on different portfolios using HTML, CSS, and Javascript and also worked on different designs.</p>
+                <button>Show more</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy;2024 - Ingabire Umugisha Honnete  - All rights reserved
+        </p>
+    </footer>
+</body>
+</html>

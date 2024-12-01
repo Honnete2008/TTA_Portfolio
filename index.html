@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifolio_v1</title>
+</head>
+<style>
+    body{
+        background-color: rgb(78, 2, 2);
+        color: white;
+
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      gap: 30px; 
+      top: 0;
+      z-index: 1;
+      height: 30px; 
+      background-color: rgb(78, 2, 2);
+      padding: 30px 30px;
+      border-radius: 10px;
+      box-shadow: 1.3px;
+    }
+    nav a {
+      color: rgb(0, 195, 255);
+      text-decoration: none;
+      
+    }
+    .container{
+        display: flex;
+        height: 100vh;
+        margin: auto;
+    }
+    .same-margin{
+        margin: auto;
+    }
+    .div-1{
+        width: 60%;
+        text-align: justify;
+        padding: 0px 100px 0px 30px;
+    }
+    .div-1 h1 span{
+        color: rgb(0, 195, 255);
+    
+    }
+    .div-1 p{
+        color: rgb(238, 241, 241);
+        font-size: 20px;
+    }
+    .div-2{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .div-2 img{
+        border-radius: 5px;
+    }
+    #skills-section{
+        text-align: center;
+    }
+    .skills-container{
+        display: flex;
+        justify-content: center ;
+        height: 70%;
+    }
+    .skill-card{
+        background-color:#010035;
+        color: #ffffff;
+        width: 30%;
+        margin: auto 15px;
+        border-radius: 6px;
+        padding: 80px 3px 30px 3px;
+    }
+    .skill-card h2{
+        font-weight: lighter;
+    }
+    .skill-card p{
+        color: rgb(255, 255, 255);
+      
+    }
+
+    #work-section{
+            text-align: center;
+    }
+    .work-container{
+        display: flex;  
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        justify-content: center;
+        height: 80vh;  
+    }
+    .work-content{
+        border: 3px solid rgb(0, 195, 255);
+        width: 27%;
+        margin: auto 30px;
+        border-radius: 5px;
+    }
+    .work-content img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 422px;
+        height: 200px;
+    }
+    .work-content p{
+        padding: 20px 20px 15px 12px;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: justify;
+    }
+    .work-content button{
+        color:rgb(56, 0, 0);
+        background-color: rgb(0, 195, 255);
+        font-weight: bold;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        border: none;
+
+        }
+        footer{
+        text-align: center;
+        background-color: rgb(0, 195, 255);
+        color: rgb(43, 0, 0);
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+        }
+</style>
+<body>
+    <nav>
+        <a href="./index.html"> Home</a>
+        <a href="./My skills.html"> My Skills</a>
+        <a href="./projects.html"> Projects</a>
+        <a href="./contact me.html"> Contact me</a>
+      </nav>
+   <section id="home-section">
+    <div class="container">
+        <div class="same-margin div-1">
+        <div class="content">
+            <h1><span>INGABIRE Umugisha Honnete</span></h1>
+        <p>A frontend developer HTML, CSS, Javascript and Figma</p>
+            </div>
+        </div>
+        <div class="same-margin div-2">
+        <img src="AUG_3485.jpg"  height="220" width="200" alt="imgsrc>">
+    </div>
+    </div>
+   </section> 
+   <section id="skills-section">
+    <h1>Experts in</h1>
+    <div class="skills-container"> 
+    <div class=" skill-card skill-1">
+<h2>
+    skill 1
+
+</h2>
+<p>HTML</p>
+<p>
+     Specialized in HyperText Markup Language for making a webpage appearing
+</p>
+    </div>
+    <div class="skill-card skill-2">
+        <h2>skill 2</h2>
+        <p>CSS</p>
+        <p> Specialised in styling a webpages for great look and making website more aatractive</p>
+    </div>
+    <div class=" skill-card skill-3">
+        <h2>skill 3</h2>
+        <p>Javascript </p>
+        <p>Specialized in making website more attractive and increasing the functionality of a website</p>
+    </div>
+</div>
+   </section>
+
+   <section id="work-section">
+    <h1>Experts In</h1>
+    <div class="work-container">
+        <div class="work-content work-1">
+            <img src="school.jpg" height="334"  alt="works">
+            <p>Worked on different webisites using HTML, CSS, and Javascript for making a perfect look . </p>
+            <button>Show more</button>
+        </div>
+
+        <div class="work-content work-2">
+            <img src="menu.PNG" height="334" alt="works">
+            <p>Worked on different flyers using adobe products like adobe photoshop and adobe illustrator.</p>
+            <button>Show more</button>
+        </div>
+
+        <div class="work-content work-3">
+            <img src="logo.PNG" height="334" alt="works">
+            <p>Worked on different portfolios using HTML, CSS, and Javascript and also worked on different designs.</p>
+            <button>Show more</button>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p>
+            &copy;2024 - Ingabire Umugisha Honnete  - All rights reserved
+        </p>
+    </footer>
+</body>
+</section>
+</html> 
